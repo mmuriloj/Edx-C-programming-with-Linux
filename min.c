@@ -32,7 +32,7 @@ int main(void)
     return 0;
 }
 
-
+//this function copies a list and sorts it. Then it returns its first value 
 int min(int list[], int length)
 {
     int i, j, swap;
