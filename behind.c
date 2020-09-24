@@ -30,7 +30,7 @@ int main(void)
     printf("Enter the number of players: ");
     scanf("%d", &N);
 
-    if(N<10 && N>0)
+    if(N<=10 && N>0)
     {
         for (i=0; i<N; i++) 
         {
